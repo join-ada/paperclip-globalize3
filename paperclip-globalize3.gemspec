@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.4.6'
 
-  spec.add_dependency 'activerecord', ['>= 4.2', '< 7.1']
+  spec.add_dependency 'activerecord', ['>= 4.2', '>= 7.1']
   spec.add_dependency 'globalize', ['>= 5.3.0', '< 6.3']
   spec.add_dependency 'paperclip', ['>= 5.3', '< 6.2.0']
 
